@@ -54,6 +54,7 @@ function endGame(draw)
     if (draw) 
     {
         winningMessageTextElement.innerText = 'Draw!'
+        restartButton.addEventListener('click', window.location.reload())
     } 
     else 
     {
